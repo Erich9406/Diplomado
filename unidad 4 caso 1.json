@@ -1,0 +1,396 @@
+{
+  "name": "caso 1",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b82d2745-c9e7-458e-b70c-07bc3c50a636",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "Diseños",
+        "driveId": {
+          "__rl": true,
+          "value": "My Drive",
+          "mode": "list",
+          "cachedResultName": "My Drive",
+          "cachedResultUrl": "https://drive.google.com/drive/my-drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1Kydr4t9xQ5PVuX24g_F9csRzfnWW3r2D",
+          "mode": "list",
+          "cachedResultName": "unidad 4 caso 1",
+          "cachedResultUrl": "https://drive.google.com/drive/folders/1Kydr4t9xQ5PVuX24g_F9csRzfnWW3r2D"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        240,
+        176
+      ],
+      "id": "bea6787f-c56c-4900-92e3-d95af6bd6d19",
+      "name": "Diseños",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "yeZw3Ji6d7DFxwXR",
+          "name": "Google Drive account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "Facturas",
+        "driveId": {
+          "__rl": true,
+          "value": "My Drive",
+          "mode": "list",
+          "cachedResultName": "My Drive",
+          "cachedResultUrl": "https://drive.google.com/drive/my-drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1Kydr4t9xQ5PVuX24g_F9csRzfnWW3r2D",
+          "mode": "list",
+          "cachedResultName": "unidad 4 caso 1",
+          "cachedResultUrl": "https://drive.google.com/drive/folders/1Kydr4t9xQ5PVuX24g_F9csRzfnWW3r2D"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        224,
+        0
+      ],
+      "id": "654682d0-fda9-480f-89eb-7b71c6818784",
+      "name": "Facturas",
+      "alwaysOutputData": true,
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "yeZw3Ji6d7DFxwXR",
+          "name": "Google Drive account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "Documentos",
+        "driveId": {
+          "__rl": true,
+          "value": "My Drive",
+          "mode": "list",
+          "cachedResultName": "My Drive",
+          "cachedResultUrl": "https://drive.google.com/drive/my-drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1Kydr4t9xQ5PVuX24g_F9csRzfnWW3r2D",
+          "mode": "list",
+          "cachedResultName": "unidad 4 caso 1",
+          "cachedResultUrl": "https://drive.google.com/drive/folders/1Kydr4t9xQ5PVuX24g_F9csRzfnWW3r2D"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        224,
+        -160
+      ],
+      "id": "589a528d-9ee8-4236-8831-ce0438536196",
+      "name": "Documentos",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "yeZw3Ji6d7DFxwXR",
+          "name": "Google Drive account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $('Create spreadsheet').item.json.spreadsheetId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "value": "My Drive",
+          "mode": "list",
+          "cachedResultName": "My Drive",
+          "cachedResultUrl": "https://drive.google.com/drive/my-drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $('Facturas').item.json.id }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        1136,
+        0
+      ],
+      "id": "76c0a46c-b119-44fd-9761-e41bbb7b87ea",
+      "name": "Move file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "yeZw3Ji6d7DFxwXR",
+          "name": "Google Drive account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "spreadsheet",
+        "title": "Factura",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        480,
+        0
+      ],
+      "id": "fc53c103-35e2-4517-8b35-09bf62f1f1bd",
+      "name": "Create spreadsheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "1skLHvXS9GQCvutV",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $('Create spreadsheet').item.json.spreadsheetId }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Hoja 1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1DMciXjPh0dtNCwS8iZcx_4cN87hGnXw4zzi6tEz7apo/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        928,
+        0
+      ],
+      "id": "5dbfb412-11b5-4a99-a9d6-0939a8436984",
+      "name": "Append or update row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "1skLHvXS9GQCvutV",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "05fb3e64-f9fb-40f3-aa84-a9146f7f767b",
+              "name": "Numero de factura",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "bad2dfac-7dc1-479b-a5ca-42c7f56ccce6",
+              "name": "Fecha",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "021f7dba-8305-4058-9158-6d0269d4d193",
+              "name": "Nombre de cliente",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "ef0b9972-1380-4345-bd77-0714f937ff4a",
+              "name": "Direccion",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "3320dfd3-ee0f-4d2a-944b-2467927208e0",
+              "name": "Monto",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        704,
+        0
+      ],
+      "id": "954f5713-d82e-4c0a-ba62-91b2b7e44c81",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "calendar": {
+          "__rl": true,
+          "value": "erich9406@gmail.com",
+          "mode": "list",
+          "cachedResultName": "erich9406@gmail.com"
+        },
+        "additionalFields": {
+          "description": "Una factura ha sido cargada",
+          "summary": "Factura cargada"
+        }
+      },
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1.3,
+      "position": [
+        1360,
+        0
+      ],
+      "id": "4e526158-53a2-46a5-a795-11cc67d86a05",
+      "name": "Create an event",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "RnhfTSQdYRHMwEjg",
+          "name": "Google Calendar account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Facturas",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Diseños",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Documentos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Facturas": {
+      "main": [
+        [
+          {
+            "node": "Create spreadsheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Documentos": {
+      "main": [
+        []
+      ]
+    },
+    "Diseños": {
+      "main": [
+        []
+      ]
+    },
+    "Create spreadsheet": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move file": {
+      "main": [
+        [
+          {
+            "node": "Create an event",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append or update row in sheet": {
+      "main": [
+        [
+          {
+            "node": "Move file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "807aa3c3-39e6-43c4-8374-fdfbd0e50ee0",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "e44533b6c513f885d08e2d8b21f1c1b1f33dfbf1eda6f46e5427e3a4606cb644"
+  },
+  "id": "nQMqzT2KTUewa2eE",
+  "tags": []
+}
