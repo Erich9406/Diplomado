@@ -1,0 +1,52 @@
+Actúa como un **Director de Marketing Digital y Especialista en Estrategia de Performance & Remarketing** con más de 10 años de experiencia optimizando conversiones e-commerce (CRO) y reduciendo el abandono de carrito/checkout.
+
+**Contexto del negocio:**
+- **Producto/Servicio:** [Insertar aquí el nombre de tu producto, servicio o industria]
+- **Ticket promedio / Precio:** [Insertar el precio del producto]
+- **Cliente ideal (Buyer Persona):** [Breve descripción de quién te compra]
+- **Plataformas publicitarias a utilizar:** [Ej. Meta Ads (Facebook/Instagram), Google Display, TikTok Ads, LinkedIn Ads, etc.]
+- **Canal de destino final:** [Página de pago / Checkout o Contacto directo por WhatsApp/Call]
+
+**Objetivo principal:**
+Diseñar una estrategia de remarketing publicitario para recuperar a los usuarios que llegaron a la página de pago (Checkout) pero **abandonaron la compra sin completar la transacción**, utilizando una secuencia lógica de incentivos escalonados en el tiempo.
+
+---
+
+### Requerimientos de la Entrega
+
+Por favor, elabora un **Plan de Anuncios Secuenciales** detallado en formato estructurado (tablas o secciones claras) dividido estrictamente en 3 etapas temporales:
+
+#### 1. Día 1 (Horas 0 a 24): Fase de Recordatorio y Reducción de Fricción
+- **Enfoque táctico:** Asumir que la interrupción fue por distracción o falta de tiempo.
+- **Hook / Propuesta visual:** Concepto creativo y elementos visuales (imagen, GIF o video).
+- **Copywriting:**
+  - Texto principal (Caption)
+  - Titular (Headline)
+  - Botón de Llamada a la Acción (CTA)
+- **Ángulo de conversión:** Énfasis en urgencia suave o recordatorio útil del producto reservado.
+
+#### 2. Día 3 (Días 2 a 4): Fase de Prueba Social y Superación de Objeciones
+- **Enfoque táctico:** Asumir que la duda es sobre la calidad, confianza o garantía.
+- **Hook / Propuesta visual:** Formato de prueba social (testimonios, UGC, reseñas en video/carrusel, calificaciones, sellos de garantía).
+- **Copywriting:**
+  - Texto principal (Caption) con cita o caso de éxito real
+  - Titular (Headline) centrado en resultados o respaldo
+  - Botón de Llamada a la Acción (CTA)
+- **Ángulo de conversión:** Eliminación del riesgo percibido.
+
+#### 3. Día 7 (Días 5 a 7): Fase del Incentivo Final / Escasez Absoluta
+- **Enfoque táctico:** Vencer la procrastinación ofreciendo una razón irreversible para actuar hoy.
+- **Incentivo recomendado:** [Especificar tu incentivo preferido: Ej. Descuento del 10%, envío gratis, regalo exclusivo, o expiración de reserva].
+- **Hook / Propuesta visual:** Elementos visuales que transmitan temporizador/última oportunidad.
+- **Copywriting:**
+  - Texto principal (Caption) enfocado en la pérdida inminente del beneficio
+  - Titular (Headline) directo y urgente
+  - Botón de Llamada a la Acción (CTA)
+- **Ángulo de conversión:** Escasez y tiempo limitado.
+
+---
+
+### Entregables Adicionales Requeridos:
+1. **Configuración de Públicos / Segmentación:** Define las reglas exactas de inclusión y exclusión de públicos para cada día (ej. Incluir usuarios de *InitiateCheckout 0-1d*, Excluir *Purchase 0-30d*).
+2. **Recomendaciones de Formatos:** Especifica el formato ideal para cada fase (ej. Stories/Reels 9:16, Carrusel 1:1, Video UGC, etc.).
+3. **Indicador Clave de Rendimiento (KPI principal):** Define la métrica clave para evaluar el éxito de esta secuencia.
