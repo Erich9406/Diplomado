@@ -1,0 +1,66 @@
+# Guía de Cumplimiento RGPD para Campañas de Marketing
+Esta lista de verificación (*checklist*) ha sido diseñada para que el equipo de marketing valide paso a paso que su campaña de captación y envío masivo cumple rigurosamente con el Reglamento General de Protección de Datos (RGPD) antes de su lanzamiento.
+
+## Fase 1: Diseño del Formulario y Landing Page
+Esta fase se centra en el punto de contacto inicial con el usuario, donde se capturan sus datos y se solicita su consentimiento.
+
+- [ ] **Minimización de datos (Campos estrictamente necesarios):**
+  - ¿Se solicitan únicamente los datos imprescindibles para la finalidad de la campaña? (Ej. si es para enviar un recurso, pedir solo el correo electrónico) (Art. 5.1.c) [135].
+- [ ] **Consentimiento Expreso e Inequívoco (Casillas activas):**
+  - ¿Las casillas de verificación (*checkboxes*) para aceptar las políticas están **vacías por defecto**? No se permite el consentimiento tácito ni premarcado (Ej. "continuar navegando" o casillas ya marcadas) [105, 124].
+- [ ] **Consentimiento Distinguible y Separado (Separabilidad):**
+  - ¿La casilla para recibir comunicaciones comerciales es independiente de la casilla de aceptación de los Términos y Condiciones generales del servicio o de la Política de Privacidad? No se puede condicionar todo el documento a una firma única si las finalidades son distintas (Art. 7.2) [22, 143].
+- [ ] **Consentimiento Libre (No condicionado):**
+  - ¿Se asegura de que la ejecución de un contrato o la prestación de un servicio no esté supeditada al consentimiento del tratamiento de datos que no son necesarios para ese fin? (Art. 7.4) [22, 143].
+- [ ] **Información de Primera Capa (Visible al momento de la recogida):**
+  - ¿Se muestra de forma visible, transparente, concisa e inteligible un resumen informativo en el propio formulario que contenga como mínimo lo siguiente? (Art. 12, 13) [154, 158]:
+    - [ ] Identidad del Responsable del tratamiento (Nombre de la empresa) (Art. 13.1.a) [158].
+    - [ ] Datos de contacto del Delegado de Protección de Datos (DPD), si estuviera designado (Art. 13.1.b) [158].
+    - [ ] Finalidad principal del tratamiento (Ej. "Enviar información comercial y ofertas") (Art. 13.1.c) [159].
+    - [ ] Base jurídica que legitima el tratamiento (Ej. "Consentimiento del interesado") (Art. 13.1.c) [159].
+    - [ ] Destinatarios de los datos o si se prevé cesión a terceros (Art. 13.1.e) [159].
+    - [ ] Enlace claro y visible a la Política de Privacidad completa (segunda capa) (Art. 12.1) [154].
+- [ ] **Información sobre la Retirada del Consentimiento:**
+  - ¿Se informa explícitamente al usuario, antes de que dé su consentimiento, de que tiene derecho a retirarlo en cualquier momento, de forma tan sencilla como lo dio? (Art. 7.3) [22, 143].
+
+## Fase 2: Gestión de la Base de Datos y Trazabilidad
+Esta fase asegura que el almacenamiento, organización y protección de los datos recopilados garanticen el cumplimiento proactivo y el ejercicio de los derechos.
+
+- [ ] **Trazabilidad y Carga de la Prueba (Registro del consentimiento):**
+  - ¿El sistema técnico es capaz de demostrar que el interesado consintió el tratamiento de sus datos de manera efectiva? (Art. 7.1) [22, 143].
+  - ¿Se registran y guardan electrónicamente metadatos clave que demuestren el consentimiento (por escrito, electrónico o grabación)? [23, 26]:
+    - Fecha y hora exacta de la captación.
+    - Formulario o URL específica de captación.
+    - Versión de la política de privacidad y textos de consentimiento aceptados.
+- [ ] **Registro de Actividades de Tratamiento (RoPA):**
+  - ¿Se ha actualizado el Registro de Actividades de Tratamiento (RoPA) de la organización para incluir esta nueva actividad de marketing? (Art. 30.1) [202].
+  - ¿El registro contiene la información obligatoria (Nombre del Responsable, fines del tratamiento, categorías de datos/interesados, destinatarios, transferencias internacionales, plazos de conservación y descripción general de medidas de seguridad)? (Art. 30.1) [203, 204].
+- [ ] **Seguridad de la Información (Medidas técnicas y organizativas):**
+  - ¿Se aplican medidas para garantizar la confidencialidad, integridad, disponibilidad y resiliencia de los sistemas de almacenamiento? (Art. 32.1.b) [208].
+  - ¿Se consideran procesos de seudonimización o cifrado para proteger las bases de datos de clientes? (Art. 32.1.a) [208].
+  - ¿Existe un proceso de verificación periódica de la seguridad de las herramientas o plataformas de email marketing utilizadas? (Art. 32.1.d) [208].
+- [ ] **Contratos de Encargados del Tratamiento (Proveedores externos):**
+  - Si se utiliza una plataforma de email marketing externa, ¿se ha verificado que ofrezca garantías suficientes y que exista un contrato vinculante (DPA / Art. 28) que regule el tratamiento bajo las instrucciones del responsable? (Art. 28.1, 28.3) [196, 197].
+- [ ] **Garantías para Transferencias Internacionales (Si aplica):**
+  - Si el proveedor de email marketing almacena datos fuera del Espacio Económico Europeo (ej. EE. UU.), ¿se ha evaluado la transferencia y se mantiene una salvaguarda válida como el Marco de Privacidad de Datos UE-EE. UU. (DPF) o Cláusulas Contractuales Tipo (SCC)? (Art. 45, 46) [92, 159, 244, 249].
+
+## Fase 3: Envíos de Email y Campañas Masivas
+Esta fase asegura que cada envío respete los derechos del interesado de manera ininterrumpida.
+
+- [ ] **Mecanismo de Baja Directo y Sencillo (Opt-out fácil):**
+  - ¿Cada correo electrónico enviado contiene un enlace de baja visible, de fácil acceso y gratuito en el pie del correo? (Art. 7.3) [22, 143].
+  - ¿La retirada del consentimiento (baja) es técnicamente tan fácil como darlo? (Ej. proceso de baja automatizado o por un canal rápido) (Art. 7.3) [22, 143].
+- [ ] **Respeto Absoluto al Derecho de Oposición:**
+  - ¿Se detiene inmediatamente cualquier tratamiento con fines de mercadotecnia directa (incluida la elaboración de perfiles de marketing vinculados) si el usuario ejerce su derecho de oposición? (Art. 21.2, 21.3) [184].
+- [ ] **Información Destacada del Derecho de Oposición:**
+  - ¿Se ha informado explícitamente sobre el derecho a oponerse a la mercadotecnia directa de forma clara y separada de cualquier otra información, a más tardar en el momento de la primera comunicación con el usuario? (Art. 21.4) [184].
+- [ ] **Toma de Decisiones Automatizadas y Perfiles de IA (Si aplica):**
+  - Si la campaña utiliza herramientas de IA o decisiones automatizadas que afecten significativamente al usuario, ¿se le ha informado sobre la lógica aplicada y las consecuencias? (Art. 13.2.f, 22.1) [162, 185].
+  - ¿Se garantiza al usuario el derecho a obtener intervención humana, expresar su punto de vista e impugnar la decisión automatizada? (Art. 22.3) [186].
+- [ ] **Coordinación ante Incidentes de Seguridad (Plazos dobles):**
+  - En caso de una brecha de seguridad que afecte a la base de datos de marketing, ¿está el equipo coordinado para notificar en los plazos legales?
+    - Ante la autoridad de protección de datos: máximo de 72 horas desde que se tenga constancia (Art. 33.1) [93, 210].
+    - Ante las autoridades de ciberseguridad (bajo directiva NIS2, si aplica a la organización): primer aviso en un plazo máximo de 24 horas (en paralelo) [93, 94].
+
+---
+*Este documento ha sido generado como una guía interactiva de trabajo interno para el fomento de la cultura de privacidad de la organización, respetando en todo momento los principios y articulado del Reglamento General de Protección de Datos (RGPD) [386].*
