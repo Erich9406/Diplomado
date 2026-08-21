@@ -1,0 +1,21 @@
+Por favor, realiza la auditoría de privacidad y cumplimiento para el siguiente formulario y texto legal:
+
+1. OBJETIVO DEL FORMULARIO / CAMPAÑA:
+Captación de registrados para participar en un sorteo gratuito de un viaje y descarga de un cupón de descuento.
+
+2. CAMPOS DEL FORMULARIO (Datos solicitados):
+- Nombre completo
+- Correo electrónico
+- Número de Cédula / DNI
+- Fecha de nacimiento
+- Dirección de residencia completa
+- Estado civil
+- [X] (Pre-marcada) Acepto los Términos y Condiciones, la Política de Privacidad y el envío de ofertas comerciales de la empresa y sus socios estratégicos.
+
+3. MECÁNICA COMERCIAL Y CAPTACIÓN:
+El usuario ingresa sus datos para ganar el viaje. Automáticamente, los datos serán compartidos con 5 empresas patrocinadoras de seguros y banca para que realicen llamadas telefónicas de venta directa durante los siguientes 12 meses.
+
+4. TEXTO DE LA POLÍTICA DE PRIVACIDAD ADJUNTA AL FORMULARIO:
+"Al hacer clic en 'Participar', el usuario autoriza de manera indefinida a Promociones Express S.A. a almacenar, procesar y transferir sus datos personales a cualquier tercero nacional o internacional para fines comerciales, análisis de perfil de consumo y prospección de ventas. 
+
+Los datos recopilados son obligatorios para participar. La empresa se reserva el derecho de conservar la información incluso si el usuario solicita su eliminación, si existe un interés comercial legítimo. Para cualquier duda, el usuario puede enviar una carta físico-postal a nuestras oficinas centrales."
