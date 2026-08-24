@@ -1,0 +1,11 @@
+"Hola a todos. En el entorno digital actual, la ciberseguridad ya no es solo responsabilidad del equipo de tecnología: es un compromiso que involucra a cada uno de nosotros.
+
+Los ataques de phishing, el ransomware y la suplantación de identidad son cada vez más sofisticados. Por eso, diseñamos este programa de entrenamiento práctico en ciberseguridad corporativa.
+
+A lo largo de esta capacitación, aprenderás a identificar amenazas en tiempo real, proteger la información confidencial de nuestra organización y aplicar las mejores prácticas tanto en la oficina como en el trabajo remoto.
+
+Proteger nuestra empresa empieza por tus acciones diarias. Te invitamos a completar los módulos y convertirte en nuestra primera línea de defensa.
+
+¡Comencemos con el entrenamiento!"
+
+
